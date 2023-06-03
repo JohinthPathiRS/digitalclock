@@ -1,0 +1,39 @@
+.clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.time span {
+    padding: 0 10px;
+}
+
+.date {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 24px;
+    color: #aaa;
+    margin-top: 10px;
+}
+
+.date span {
+    padding: 0 5px;
+}
